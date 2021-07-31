@@ -1,0 +1,7 @@
+{% load static %}
+<html>
+  <form method="POST">
+    {% csrf_token %} {{formshow}}
+    <button type="submit">Submit</button>
+  </form>
+</html>
